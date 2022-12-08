@@ -213,10 +213,10 @@ img.oferta{
 #tabla-medicamentos{
     display: flex;
     margin-bottom: 100px;
-    text-align: center;
-    margin-left: 20%;
-    margin-left: 20%;    
-    width: 60%;
+    text-align: center;   
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     vertical-align: middle;
     border: 1px solid #000;
     border-spacing: 0;      
@@ -232,4 +232,37 @@ img.oferta{
     height: 50px;
     border: 1px solid #000;
     width: auto;
+}
+
+.filtro{
+    display: none;
+}
+
+.filtro2{
+    display: none;
+}
+.filtro3{
+    display: none;
+}
+.filtro4{
+    display: none;
+}
+
+.boton-search{    
+    display: flex;
+    align-items: center;    
+}
+
+.boton-search input{    
+    height: 50px;
+    margin-left:35%;  
+    margin-right: 30%;   
+    width: 30%;
+    background-color: #fff;
+    margin-bottom: 50px;     
+    border-radius: 40px;     
+}
+
+.boton-search ::placeholder{
+    color:rgb(0, 0, 0)    
 }
