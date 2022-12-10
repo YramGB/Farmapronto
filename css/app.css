@@ -1,4 +1,7 @@
 @media (max-width:1150px){
+    body{
+        font-size: 30px;
+    }
     header{
         flex-direction: column;
     }
@@ -18,6 +21,26 @@
         width: 100%;        
         margin-top: 100px;
     }        
+    img.redimension3{    
+        height: 50%;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .envios{
+        flex-direction: column;
+    }
+    .android-ios{
+        margin-top: 100px;        
+    }
+    
+    .entregas{
+        margin-top: 100px;        
+    }
+    .pedidos{
+        margin-top: 100px;                
+    }
+    
 }
 
 body{
@@ -36,6 +59,7 @@ a{
 }
 
 header{
+    font-size: 20px;
     display: flex;
     min-height: 65;
     background-color: rgb(63, 189, 194);
@@ -194,7 +218,7 @@ img.oferta{
 
 .imagenes-oferta h2{
     text-align: center;
-    color:rgb(0, 4, 255);
+    color:rgb(0, 110, 255);
     font-size: 50px;
     margin-right: 25%;
     margin-left: 25%;
@@ -237,7 +261,6 @@ img.oferta{
 .filtro{
     display: none;
 }
-
 .filtro2{
     display: none;
 }
@@ -265,4 +288,157 @@ img.oferta{
 
 .boton-search ::placeholder{
     color:rgb(0, 0, 0)    
+}
+
+img.redimension2{
+    max-width: 100%;       
+    filter: brightness(50%);
+}
+
+.anuncio2{
+    position: relative;
+    display: inline-block;
+    text-align: center;    
+}
+
+.texto-encima2{
+    position: absolute;
+    top: 10px;
+    left: 10px;    
+    top: 50%;
+    left: 50%;    
+    color: #fff;        
+}
+
+.texto-primario2{    
+    transform: translate(-50%, -150%);    
+    font-size: 30px;    
+}    
+.texto-secundario2{
+    transform: translate(-50%, -500%);
+    font-size: 18px;    
+} 
+
+.boton-search2{    
+    display: flex;
+    align-items: center; 
+    margin-top: 20px;   
+}
+
+.boton-search2 input{    
+    height: 50px;
+    margin-left:35%;  
+    margin-right: 30%;   
+    width: 30%;
+    background-color: #fff;
+    margin-bottom: 50px;     
+    border-radius: 40px;     
+}
+
+.boton-search2 ::placeholder{
+    color:rgb(0, 0, 0)    
+}
+
+#tabla-sucursales{
+    display: flex;
+    margin-bottom: 100px;
+    text-align: center;   
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    vertical-align: middle;
+    border: 1px solid #000;
+    border-spacing: 0;      
+}
+
+#tabla-sucursales th{
+    height: 50px;
+    border: 1px solid #000;      
+    width: 600px;   
+}
+
+#tabla-sucursales td{
+    height: 50px;
+    border: 1px solid #000;
+    width: auto;
+}
+
+.redimension3{    
+    height: 100%;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.texto-promociones{
+    color:rgb(0, 110, 255);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px; 
+}
+
+.envios{
+    margin-top: 50px;
+    display: flex;
+    min-height: 65;    
+    justify-content: space-between;
+    align-items: center;  
+    padding: 5px;  
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.envios img{
+    width: 100px;
+}
+
+.envios h1{
+    color: #000;
+}
+
+.envios p{
+    min-width: 300px;
+}
+
+.android-ios{
+    margin-top: 100px;
+}
+
+.entregas{
+    margin-top: 100px;    
+}
+.pedidos{
+    margin-top: 100px;    
+}
+
+.descargar-app{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.descargar-app h1{
+    color:rgb(0, 110, 255);
+    font-style: bold;
+}
+
+.descargar-app button{
+    width: 300px;
+}
+
+.descargar-app img{
+    width: 15px;
+}
+
+.btn-ios{    
+}
+
+.ios{
+
+}
+
+.android{    
+
 }
