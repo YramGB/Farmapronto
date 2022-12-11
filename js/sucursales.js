@@ -335,7 +335,7 @@ let datos = [
 ]
 
 let crearTabla = function(lista){
-    let stringTabla = "<tr><th>Estado/th><th>Dirección</th><th>Teléfono</th></tr>";
+    let stringTabla = "<tr><th>Estado</th><th>Dirección</th><th>Teléfono</th></tr>";
     for(let sucursal of lista){
         let parte1 = "<tr><td class=\"sucursal\">"
         parte1 += sucursal.estado;
@@ -361,22 +361,8 @@ document.addEventListener("keyup", e=>{
     if(e.target.matches("#buscador")){
        document.querySelectorAll(".sucursal").forEach(elemento =>{
             elemento.textContent.toLowerCase().includes(e.target.value.toLowerCase())
-            ?elemento.classList.remove("filtro")
+            ?elemento.classList.remove("filtro")            
             :elemento.classList.add("filtro")           
-        })
+        })        
     }
-    if(e.target.matches("#buscador")){
-        document.querySelectorAll(".sucursal3").forEach(elemento2 =>{
-             elemento2.textContent.toLowerCase().includes(e.target.value.toLowerCase())
-             ?elemento2.classList.remove("filtro2")
-             :elemento2.classList.add("filtro2")           
-         })
-     }
-     if(e.target.matches("#buscador")){
-        document.querySelectorAll(".sucursal3").forEach(elemento3 =>{
-             elemento3.textContent.toLowerCase().includes(e.target.value.toLowerCase())
-             ?elemento3.classList.remove("filtro3")
-             :elemento3.classList.add("filtro3")           
-         })
-     }
 })
