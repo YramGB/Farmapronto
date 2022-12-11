@@ -331,7 +331,6 @@ let datos = [
     {estado:"VERACRUZ", direccion:"INDEPENDENCIA 66, LOCAL 1A, CENTRO C.P 96970 SUCHILAPAN DEL RIO VERACRUZ",  telefono:"924 244 1303"},
     {estado:"VERACRUZ", direccion:"ZARAGOZA # 92 CENTRO 96180 TEXISTEPEC VER",  telefono:"924 247 3168"},
     {estado:"YUCATÁN", direccion:"CALLE 51#392 CENTRO 97700 TIZIMIN YUCATAN",  telefono:"-"}
-
 ]
 
 let crearTabla = function(lista){
