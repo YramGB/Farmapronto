@@ -27,6 +27,10 @@
         margin-left: 20%;
         margin-right: 20%;
     }
+    img.redimension4{
+        height: 50%;
+        width: 100%;
+    }
     .envios{
         flex-direction: column;
     }
@@ -69,7 +73,56 @@
     .contenedor div{
         font-size: 10px;     
     }    
-   
+
+    .nuestra-historia{    
+        align-items: center;   
+        width: 90%;   
+        margin-right: auto;            
+    }
+    
+    .nuestra-historia h1{    
+        color: rgb(0, 110, 255);
+        text-align: center;        
+        width: 90%;
+        padding-left: 10%;
+    }
+    
+    .nuestra-historia p{
+        width: 90%;
+        padding-left: 10%;
+        font-size: 20px;
+        text-align: justify;
+        line-height: 35px;          
+    }
+    
+    .nuestra-historia img{
+        width: 90%;
+        margin-bottom: 60px;
+        
+    }
+
+    .objetivos{    
+        height: 700px;                    
+        line-height: 20px;        
+        margin-bottom: 100px;
+        flex-direction: column;
+    }
+
+    .mision{   
+        margin-top: 50px; 
+        width: 400px;
+        font-size: 30px;
+    }
+    
+    .vision{     
+        width: 400px;
+        font-size: 15px;  
+    }
+    
+    .valores{     
+        width: 400px;
+        font-size: 15;
+    }
 }
 
 body{
@@ -89,7 +142,7 @@ a{
 }
 
 header{
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     min-height: 65;
     background-color: rgb(63, 189, 194);
@@ -140,9 +193,13 @@ nav a:hover{
     height: 100%;
 }
 
+.flechas-carrusel i img{
+    height: 50px;
+}
+
 .flechas-carrusel{        
     position: absolute;
-    top: 0;
+    top: 0;    
     height: 100%;
     width: 100%;
     display: flex;
@@ -175,6 +232,11 @@ nav a:hover{
     margin-top: 10px;    
     margin-bottom: 100px;   
 }
+
+.redes-sociales i img{
+    height:50px;
+}
+
 
 .btn-whats{
     position: fixed;
@@ -599,3 +661,86 @@ img.redimension2{
     display: none ;
 }
 
+img.redimension4{
+    max-width: 100%;
+    max-height: auto;    
+    filter: brightness(50%);
+}
+
+.texto-encima3{
+    position: absolute;
+    top: 10px;
+    left: 10px;    
+    top: 50%;
+    left: 50%;    
+    color: #fff;  
+    text-align: center;      
+}
+
+.texto-primario3{    
+    transform: translate(-50%, -290%);    
+    font-size: 30px;        
+}    
+.texto-secundario3{
+    transform: translate(-50%, -200%);
+    font-size: 18px;    
+} 
+
+.nuestra-historia{    
+    margin-top: 5%;
+    margin-bottom: 5%;
+    align-items: center;   
+    min-width: 90%;         
+}
+
+.nuestra-historia h1{    
+    color: rgb(0, 110, 255);
+    text-align: center;        
+    width: 50%;
+    padding-left: 8%;
+}
+
+.nuestra-historia p{
+    width: 50%;
+    padding-left:8%;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 35px;          
+}
+
+.nuestra-historia img{
+    width: 600px;
+    float: right;    
+    display: flex;
+    padding-right: 100px;
+}
+
+.objetivos{    
+    display: inline-flex;
+    min-height: 65;    
+    justify-content: space-between;
+    align-items: center;  
+    text-align: center;
+    min-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+}
+
+.mision{   
+    margin-top: 50px; 
+    min-width: 200px;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+.vision{     
+    min-width: 300px;
+    font-size: 20px;  
+    margin-right: 100px;
+}
+
+.valores{     
+    min-width: 300px;
+    font-size: 20px;
+}
