@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="image/logo.png" alt="Logo farmapronto">
+            <h2 class="Farmapronto">Farmapronto</h2>
+        </a>         
+        <nav>
+            <a href="index.html" class="nav-link" >Inicio</a>
+            <a href="marca_propia.html" class="nav-link" >Marca propia</a>
+            <a href="sucursales.html" class="nav-link" >Sucursales</a>            
+            <a href="promociones.html" class="nav-link" >Promociones</a>
+            <a href="servicio-domicilio.html" class="nav-link" >Servicio a domicilio</a>     
+            <a href="login.html" class="nav-link">Iniciar sesión</a>              
+        </nav>  
+    </header> 
+
+    <div class="login">
+        <div class="contenedor">
+            <div class="contenedor-all">
+                <h3>¿Ya tienes una cuenta?</h3>
+                <p>Inicia sesión para entrar a la página</p>
+                <button id="btn-iniciar-sesion">Iniciar sesión</button>
+                <h3>¿Aún no tienes una cuenta?</h3>
+                <p>Regístrate para que puedas iniciar sesión</p>
+                <button id="btn-registarse">Registrarse</button>
+            </div>
+        </div>
+        <div class="contenedor-login-register">
+            <form action="" class="formulario-login">
+                <h2>Iniciar sesión</h2>
+                <input type="text" placeholder="Correo electrónico">
+                <input type="password" placeholder="Contraseña">
+                <button>Entrar</button>
+            </form> 
+            <form action="" class="formulario-register">
+                <h2>Registrarse</h2>
+                <input type="text" placeholder="Nombre completo">
+                <input type="text" placeholder="Apellidos">
+                <input type="text" placeholder="Correo electrónico">
+                <input type="text" placeholder="Usuario">
+                <input type="password" placeholder="Contraseña">
+                <button>Registrarse</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="redes-sociales">
+        <a href="https://api.whatsapp.com/send?phone=525512041592" class="btn-whats" target="_blank">
+            <i class="icon-whatsapp">
+                <img src="image/whatsapp.png" height="50px">        
+            </i>    
+        </a>
+        <a href="https://www.instagram.com/farmaciafarmapronto/" class="btn-instagram" target="_blank">
+            <i class="icon-instragram">
+                <img src="image/instagram.png" height="50px">        
+            </i>    
+        </a>
+        <a href="https://www.facebook.com/GrupoFarmapronto/" class="btn-facebook" target="_blank">
+            <i class="icon-facebook">
+                <img src="image/facebook.png" height="50px">        
+            </i>    
+        </a>
+    </div>
+    <div id="footer">
+        <h4>&copy Copyright 2022 Farmacias farmapronto. Todos los derechos reservados.</h4>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>

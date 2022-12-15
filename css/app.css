@@ -3,7 +3,7 @@
         font-size: 30px;
     }
     header{
-        flex-direction: column;
+        flex-direction: column;             
     }
     nav{
         padding: 10px 0px 0px 20px;
@@ -41,6 +41,35 @@
     .pedidos{
         margin-top: 100px;                        
     } 
+
+    .login{
+        padding-left: 5%;
+        padding-right: 15%;
+        padding-left: auto;        
+    }
+
+    .contenedor{         
+        height: 400px;
+        justify-content: center;       
+        background-color: rgb(63, 189, 194);
+    }
+    
+    .contenedor div{                
+        transition: all 500ms;    
+    }
+    
+    .contenedor div p, .contenedor div button{        
+        font-size: 10px;    
+    }
+    
+    .contenedor div h3{    
+        font-size: 1px;    
+    }
+
+    .contenedor div{
+        font-size: 10px;     
+    }    
+   
 }
 
 body{
@@ -66,7 +95,7 @@ header{
     background-color: rgb(63, 189, 194);
     justify-content: space-between;
     align-items: center;  
-    padding: 10PX;  
+    padding: 10px;  
 }
 
 .logo{
@@ -74,10 +103,10 @@ header{
 }
 
 .logo img{
-    height: 60;        
+    height: 60px;        
     margin-right: 30px;    
-    margin-left: 30px;
-   margin-top: 10px;
+    margin-left: 30px;  
+    padding-top: 10px;  
 }
 
 .logo h2{        
@@ -463,5 +492,110 @@ img.redimension2{
 .btn-ios{    
     margin-top: 60px;
     margin-bottom: 60px;
+}
+
+.login{
+    max-width: 100%;
+    max-width: 1000px;
+    max-height: 800px;    
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.contenedor{
+    margin-top: 150px;    
+    width: 100%;    
+    padding: 0px 50px;    
+    justify-content: center;
+   /* background-color: rgb(0, 110, 255);*/
+    background-color: rgb(63, 189, 194);    
+}
+
+.contenedor div{
+    margin-left: 600px;
+    padding: 10px;
+    color:#fff;
+    transition: all 500ms;    
+}
+
+.contenedor div p, .contenedor div button{
+    margin-top: 0px;
+}
+
+.contenedor div h3{
+    font-weight: 400px;
+    font-size: 26px;
+}
+
+.contenedor button{
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    transition: all 300ms;    
+}
+
+.contenedor button:hover{
+    background:#fff;
+    color: rgb(0, 68, 255);
+}
+
+.contenedor-login-register{
+    display: flex;    
+    align-items: center;
+    width: 100%;
+    position: relative;
+    top: -222px;
+    left: 60px;    
+}
+
+.contenedor-login-register form{
+    max-width: 400px;    
+    padding: 80px 20px;    
+    background: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.contenedor-login-register form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    /*color: rgb(0, 110, 255);*/
+    color: rgb(63, 189, 194);
+}
+
+.contenedor-login-register form input{
+    width: 90%;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 15px;    
+    font-size: 16px;
+    outline: none;
+}
+
+.contenedor-login-register form button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    /*background: rgb(0, 110, 255);*/
+    background-color: rgb(63, 189, 194);
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.formulario-login{    
+    display: block;
+}
+
+.formulario-register{
+    display: none ;
 }
 
