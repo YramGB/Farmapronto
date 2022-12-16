@@ -739,7 +739,7 @@ img.redimension4{
     min-width: 400px;
     font-size: 20px;
     text-align: center;
-    padding-right: 100px;
+    /*padding-right: 100px;*/
 }
 
 .valores ul{
