@@ -151,11 +151,12 @@ header{
 .logo img{
     height: 60px;        
     margin-right: 30px;    
-    margin-left: 30px;      
+    margin-left: 30px;   
+    padding-top: 8px;   
 }
 
-.logo h2{        
-    color: rgb(255,255,255);
+.logo h1{        
+    color: rgb(255,255,255);    
 }
 
 nav a{
