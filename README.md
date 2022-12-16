@@ -2,7 +2,7 @@
 
 Integrantes del equipo:
 
-Gonzáles Bartolo Angel Yram https://github.com/YramGB
+González Bartolo Angel Yram https://github.com/YramGB
 
 Kattz Villa Enrique Alexandre  https://github.com/EnriqueKattz
 
