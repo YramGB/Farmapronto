@@ -2,14 +2,11 @@
 
 Integrantes del equipo:
 
-Gonzáles Bartolo Angel Yram
-  https://github.com/YramGB
+Gonzáles Bartolo Angel Yram https://github.com/YramGB
 
-Kattz Villa Enrique Alexandre  
-  https://github.com/EnriqueKattz
+Kattz Villa Enrique Alexandre  https://github.com/EnriqueKattz
 
-Solano Angulo Oscar Eduardo
-  https://github.com/Hygger1
+Solano Angulo Oscar Eduardo https://github.com/Hygger1
   
 Descripción:
 Desarrollo de página web de la farmacia Farmapronto en HTML, css y JavaScript, contiene vistas de información relevante sobre la farmacia, como las sucursales, 
