@@ -18,4 +18,4 @@ Para poder ejecutar la aplicación web es necesario que se descargue el reposito
 Por otro lado, se implementó un sistema de web hosting para poder visualizar la página mas facilmente con solo tener el link de esta.
 
 Link 1: https://yramgb.github.io/Farmapronto/
-link 2: https://farmapronto.netlify.app/
+link 2: https://farmapronto.000webhostapp.com
