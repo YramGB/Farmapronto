@@ -9,6 +9,7 @@ Kattz Villa Enrique Alexandre  https://github.com/EnriqueKattz
 Solano Angulo Oscar Eduardo https://github.com/Hygger1
   
 Descripción:
+
 Desarrollo de página web de la farmacia Farmapronto en HTML, css y JavaScript, contiene vistas de información relevante sobre la farmacia, como las sucursales, 
 los medicamentos de marca propia, la mision, vision y valores y las ofertas mas relevantes del mes.
 
